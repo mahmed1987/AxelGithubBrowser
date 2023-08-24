@@ -95,7 +95,7 @@ fun AxelGithubBrowserTheme(
   val view = LocalView.current
   if (!view.isInEditMode) {
     SideEffect {
-      (view.context as Activity).window.statusBarColor = Color.Transparent.toArgb()
+      (view.context as Activity).window.statusBarColor = colorScheme.background.toArgb()
       ViewCompat.getWindowInsetsController(view)?.isAppearanceLightStatusBars = !darkTheme
     }
   }

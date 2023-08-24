@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Axel Github Browser</string>
+    <string name="error_occurred">Some Error Occurred</string>
 </resources>
